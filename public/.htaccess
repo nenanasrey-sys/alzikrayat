@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # إذا كان الملف أو المجلد موجوذاً بالفعل لا تقم بإعادة التوجيه
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # توجيه جميع الطلبات الأخرى إلى index.php
+    RewriteRule ^ index.php [L]
+</IfModule>
