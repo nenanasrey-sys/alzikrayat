@@ -1,4 +1,4 @@
-# Alzikrayat (الذكريات) - Web Photo Sharing Application
+# Alzikrayat- Web Photo Sharing Application
 
 ### Student Name:
 آمنة نصر الدين
